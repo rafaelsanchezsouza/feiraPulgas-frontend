@@ -48,7 +48,7 @@ export default function Profile() {
         <span>Bem vinda, {ongName}</span>
 
         <Link to="/incidents/new" className="button">
-          Cadastrar novo caso
+          Nome do produto caso
         </Link>
 
         <button type="button" onClick={handleLogout}>

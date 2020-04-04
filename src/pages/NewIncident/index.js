@@ -42,10 +42,9 @@ export default function NewIncident() {
       <div className="content">
         <section>
           <img src={logoImg} alt="Be The Hero" />
-          <h1>Cadastrar novo caso</h1>
+          <h1>Nome do produto caso</h1>
           <p>
-            Descreva o caso detalhadamente para encontrar um herói para resolver
-            isso.
+            Descreva o caso detalhadamente seu produto para encantar as pessoas!
           </p>
 
           <Link to="/" className="back-link">
@@ -56,7 +55,7 @@ export default function NewIncident() {
 
         <form onSubmit={handleNewIncident}>
           <input
-            placeholder="Título do caso"
+            placeholder="Nome do produto"
             value={title}
             onChange={e => setTitle(e.target.value)}
           />
