@@ -52,7 +52,7 @@ export default function Profile() {
         </Link>
 
         <button type="button" onClick={handleLogout}>
-          <FiPower size={18} color="#e02041" />
+          <FiPower size={18} color="#297c38" />
         </button>
       </header>
 

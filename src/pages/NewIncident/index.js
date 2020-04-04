@@ -49,7 +49,7 @@ export default function NewIncident() {
           </p>
 
           <Link to="/" className="back-link">
-            <FiArrowLeft size={16} color="#e02041" />
+            <FiArrowLeft size={16} color="#297c38" />
             Voltar para home
           </Link>
         </section>
