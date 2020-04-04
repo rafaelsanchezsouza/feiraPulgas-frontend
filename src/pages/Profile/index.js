@@ -44,7 +44,7 @@ export default function Profile() {
   return (
     <div className="profile-container">
       <header>
-        <img src={logoImg} alt="Be The Hero" />
+        <img src={logoImg} alt="Feira das Pulgas" />
         <span>Bem vinda, {ongName}</span>
 
         <Link to="/incidents/new" className="button">

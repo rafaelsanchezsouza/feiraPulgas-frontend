@@ -41,7 +41,7 @@ export default function NewIncident() {
     <div className="new-incident-container">
       <div className="content">
         <section>
-          <img src={logoImg} alt="Be The Hero" />
+          <img src={logoImg} alt="Feira das Pulgas" />
           <h1>Nome do produto caso</h1>
           <p>
             Descreva o caso detalhadamente seu produto para encantar as pessoas!
