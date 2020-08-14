@@ -44,6 +44,12 @@ export default function Logon() {
           <button className="button" type="submit">
             Entrar
           </button>
+          <Link to="/about">
+              <button className="button" type="button">
+                    Sobre a feira das pulgas
+              </button>
+          </Link>  
+          
           <Link to="/register" className="back-link">
             <FiLogIn size={16} color="#297c38" />
             Não tenho cadastro
